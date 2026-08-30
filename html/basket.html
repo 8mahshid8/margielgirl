@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="stylesheet" href="../css/styleb.css">
+</head>
+<body>
+<div id="main">
+    <div id="head">
+    <a href="index.html">
+        <div id="pic">
+        </div>
+    </a>
+    <div id="menu-wrapper">
+        <a class="menu" href="store.html"><b>فروشگاه</b></a>
+        <a class="menu" href="login.html"><b>ورود</b></a>
+        <a class="menu" href="signup.html"><b>ثبت نام</b></a>
+        <a class="menu" href="aboutus.html"><b>درباره ما</b></a>
+    </div>
+    <a id="basket" href="basket.html">
+        <img src="../pic/basket.svg">
+    </a>
+</div>
+
+<div id="basket-content">
+    <div id="basket-items">
+        <div class="basket-item">
+            <a target="_self" href="../pic/nail1.webp">
+                <img src="../pic/nail1.webp" alt="ویمزیکال ناز" width="200" height="200">
+            </a>
+            <div class="desc">ویمزیکال ناز</div>
+            <div class="price">300,000 تومان</div>
+            <div class="qty">
+                <button class="qty-btn">-</button>
+                <span>1</span>
+                <button class="qty-btn">+</button>
+            </div>
+        </div>
+        <div class="basket-item">
+            <a target="_self" href="../pic/nail3.webp">
+                <img src="../pic/nail3.webp" alt="هارمونی" width="200" height="200">
+            </a>
+            <div class="desc">هارمونی</div>
+            <div class="price">250,000 تومان</div>
+            <div class="qty">
+                <button class="qty-btn">-</button>
+                <span>1</span>
+                <button class="qty-btn">+</button>
+            </div>
+        </div>
+        <div class="basket-item empty"></div>
+    </div>
+
+    <div id="checkout-box">
+        <h4>خلاصه سفارش</h4>
+        <div class="checkout-row">
+            <span>جمع کالاها</span>
+            <span>550,000 تومان</span>
+        </div>
+        <div class="checkout-row">
+            <span>هزینه ارسال</span>
+            <span>180,000 تومان</span>
+        </div>
+        <div class="checkout-row total">
+            <span>مبلغ قابل پرداخت</span>
+            <span>580,000 تومان</span>
+        </div>
+        <button id="pay-btn">پرداخت</button>
+    </div>
+</div>
+
+<div id="foot">
+    <div id="foot-wrapper">
+        <div class="foot-col">
+            <h4>تماس با ما</h4>
+            <p>آدرس: خرم آباد، خیابان 17 شهریور، مجتمع فنی تهران نمایندگی خرم آباد، مهشید نادری از کلاس وب یک</p>
+            <p>تلفن: 09219785015</p>
+            <p>ایمیل: 8.mahshid.8@gmail.com</p>
+        </div>
+        <div class="foot-col">
+            <h4>دسترسی سریعتر</h4>
+            <a href="store.html">فروشگاه</a>
+            <a href="login.html">ورود</a>
+            <a href="signup.html">ثبت نام</a>
+            <a href="aboutus.html">درباره ما</a>
+        </div>
+    </div>
+    <div id="foot-bottom">
+        &copy; تمامی حقوق برای Velvet Violet محفوظ است
+    </div>
+</div>
+</div>
+</body>
+</html>

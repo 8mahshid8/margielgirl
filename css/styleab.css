@@ -1,0 +1,196 @@
+body{
+    background-image: url(../pic/bg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+@font-face {
+    font-family: fontp;
+    src: url('../fonts/Sans\ a4fran3.eot');
+    src:url('../fonts/Sans\ a4fran3.eot') format('Sans-opentype'),
+        url('../fonts/Sans\ a4fran3.woff'),
+        url('../fonts/Sans\ a4fran3.ttf') format('truetype')
+}
+#main{
+    width: 960px;
+    height: auto;
+    margin: auto;
+}
+#head{
+    width: 960px;
+    height: 90px;
+    margin: auto ;
+    padding: 5px;
+    background-color: rgb(134, 86, 179);
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+}
+#menu-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+#pic{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(211, 192, 221);
+    border-radius: 45px;
+    background-image: url(../pic/logo.webp);
+    background-size: 90px 90px ;
+    
+}
+#basket{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+#basket img{
+    width: 48px;
+    height: 48px;
+    padding: 30px;
+}
+.menu{
+    font-family:fontp;
+    font-size: 15px;
+    text-decoration: none; 
+    color: rgb(255, 223, 255);
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.menu:hover{
+    background-color: rgb(255, 223, 255);
+    color: rgb(134, 86, 179);
+}
+#bio-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    direction: rtl;
+    background-color: rgba(243, 209, 226, 0.6);
+    border: 1px solid #d297ff;
+    border-radius: 20px;
+}
+#bio-photo{
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid rgb(134, 86, 179);
+    background-color: rgb(211, 192, 221);
+}
+#bio-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#bio-info{
+    flex: 1;
+}
+#bio-info h2{
+    font-family: fontp;
+    font-size: 22px;
+    color: rgb(134, 86, 179);
+    margin: 0 0 8px 0;
+}
+#bio-role{
+    font-family: fontp;
+    font-size: 14px;
+    color: rgb(90, 60, 120);
+    margin: 0 0 12px 0;
+}
+#bio-text{
+    font-family: fontp;
+    font-size: 14px;
+    line-height: 1.8;
+    color: rgb(90, 60, 120);
+    margin: 0 0 15px 0;
+}
+#social-icons{
+    display: flex;
+    gap: 12px;
+}
+.social-icon img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+}
+#map-section{
+    width: 900px;
+    margin: 0 auto 30px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #d297ff;
+}
+#map-section iframe{
+    width: 100%;
+    height: 300px;
+    border: 0;
+    display: block;
+}
+#foot{
+    width: 960px;
+    margin: auto;
+    padding: 30px 20px;
+    background-color: rgb(134, 86, 179);
+    border-radius: 25px 25px 0 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+#foot-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.foot-col{
+    flex: 1;
+    width: 200px;
+}
+.foot-col h4{
+    font-family: fontp;
+    font-size: 17px;
+    color: rgb(255, 223, 255);
+    margin: 0 0 12px 0;
+}
+.foot-col p{
+    display: block;
+    font-family: fontp;
+    font-size: 15px;
+    color: rgb(255, 223, 255);
+    margin-bottom: 8px;
+}
+.foot-col a{
+    display: block;
+    font-family: fontp;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 223, 255);
+    margin-bottom: 8px;
+}
+.foot-col a:hover{
+    text-decoration: underline;
+}
+#foot-bottom{
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid rgb(211, 192, 221);
+    text-align: center;
+    font-family: fontp;
+    font-size: 13px;
+    color: rgb(255, 223, 255);
+}
